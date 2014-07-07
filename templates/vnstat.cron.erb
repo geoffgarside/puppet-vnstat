@@ -1,0 +1,1 @@
+if [ -x <%= @vnstat_bin %> ] && [ `ls -l <%= @vnstat_db_dir %> | wc -l` -ge 1 ]; then <%= @vnstat_bin %> -u; fi
