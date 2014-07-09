@@ -1,6 +1,6 @@
 class vnstat::cron {
 
-  $vnstat_bin    = $::vnstat::params::vnstat_bin,
+  $vnstat_bin    = $::vnstat::params::vnstat_bin
   $vnstat_db_dir = $::vnstat::vnstat_db_dir
 
   cron { 'vnstat update':
